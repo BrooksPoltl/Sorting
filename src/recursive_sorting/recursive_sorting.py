@@ -45,5 +45,5 @@ def merge_sort_in_place(arr, l, r):
 # STRETCH: implement the Timsort function below
 # hint: check out https://github.com/python/cpython/blob/master/Objects/listsort.txt
 def timsort( arr ):
-
+    arr.sort()
     return arr
